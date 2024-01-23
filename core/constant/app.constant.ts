@@ -1,0 +1,3 @@
+export default {
+  NUXT_TOKEN_STORAGE_KEY: 'NUXT_SHOPPING_CART_TOKEN'
+}

@@ -1,0 +1,24 @@
+.v-input__control {
+  .v-field--variant-solo {
+    box-shadow: unset;
+  }
+
+  .v-filed--focused {
+    border-color: transparent;
+  }
+
+  .v-field {
+    border-radius: 8px;
+  }
+}
+.v-btn {
+  border-radius: 8px;
+}
+
+.bg-gradient-cyan {
+  background-image: linear-gradient(310deg, rgba(var(--v-theme-blue600)), rgba(var(--v-theme-cyan400)));
+}
+
+.bg-gradient-dark-gray {
+  background-image: linear-gradient(310deg, rgba(var(--v-theme-gray900)), rgba(var(--v-theme-slate800)));
+}
