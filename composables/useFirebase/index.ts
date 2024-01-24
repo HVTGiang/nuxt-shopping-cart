@@ -28,11 +28,11 @@ if (!getApps().length) {
 // Initialize Firebase
 
 // Initialize Cloud Firestore and get a reference to the service
-export const db = getFirestore(app!)
+export const database = getFirestore(app!)
 
 export default function useFirebase() {
   return {
-    db,
+    database,
     auth,
     storage,
     app

@@ -5,11 +5,9 @@
   import { useSystem, useUser } from '~/core/store'
   import { regexEmail } from '~/core/helper/regex'
   import type { IUser } from '~/core/interfaces/user'
-  import { useToast } from 'vue-toastification'
 
   const system = useSystem()
   const userStore = useUser()
-  const toast = useToast()
 
   const email = ref<string>()
   const password = ref<string>()
@@ -70,13 +68,13 @@
       <div class="sign-in-form__title pa-6">Sign In</div>
       <div class="sign-in-form__other-actions d-flex align-center ga-2 mb-4 justify-center">
         <div class="sign-in-form__other-action d-flex justify-center align-center">
-          <img src="/assets/icons/facebook-svgrepo-com.svg" alt="" />
+          <img src="/assets/icons/facebook-svgrepo-com.svg" alt="Facebook logo" />
         </div>
         <div class="sign-in-form__other-action d-flex justify-center align-center">
-          <img src="/assets/icons/apple-173-svgrepo-com.svg" alt="" />
+          <img src="/assets/icons/apple-173-svgrepo-com.svg" alt="Apple logo" />
         </div>
         <div class="sign-in-form__other-action d-flex justify-center align-center">
-          <img src="/assets/icons/google-color-svgrepo-com.svg" alt="" />
+          <img src="/assets/icons/google-color-svgrepo-com.svg" alt="Google logo" />
         </div>
       </div>
       <div class="sign-in-form__inputs pa-6">
@@ -125,11 +123,11 @@
         <div class="sign-in-page__menu-item">Licenses</div>
       </div>
       <div class="sign-in-page__icons d-flex align-center ga-6 justify-center mt-2 mb-6">
-        <img class="sign-in-page__icon" src="/assets/icons/dribble-svgrepo-com.svg" alt="" />
-        <img class="sign-in-page__icon" src="/assets/icons/twitter-154-svgrepo-com.svg" alt="" />
-        <img class="sign-in-page__icon" src="/assets/icons/insta-svgrepo-com.svg" alt="" />
-        <img class="sign-in-page__icon" src="/assets/icons/pinterest-180-svgrepo-com.svg" alt="" />
-        <img class="sign-in-page__icon" src="/assets/icons/github-142-svgrepo-com.svg" alt="" />
+        <img class="sign-in-page__icon" src="/assets/icons/dribble-svgrepo-com.svg" alt="Dribble logo" />
+        <img class="sign-in-page__icon" src="/assets/icons/twitter-154-svgrepo-com.svg" alt="Twitter logo" />
+        <img class="sign-in-page__icon" src="/assets/icons/insta-svgrepo-com.svg" alt=" Instagram logo" />
+        <img class="sign-in-page__icon" src="/assets/icons/pinterest-180-svgrepo-com.svg" alt="Pinterest logo" />
+        <img class="sign-in-page__icon" src="/assets/icons/github-142-svgrepo-com.svg" alt="Github logo" />
       </div>
       <div class="sign-in-page__author d-flex align-center ga-6 justify-center mt-2 mb-6">Created by GiangHVT</div>
     </div>

@@ -22,3 +22,24 @@
 .bg-gradient-dark-gray {
   background-image: linear-gradient(310deg, rgba(var(--v-theme-gray900)), rgba(var(--v-theme-slate800)));
 }
+
+.horizontal-divider {
+  height: 1px;
+  background-color: rgba(var(--v-theme-gray200));
+  opacity: 0.25;
+}
+
+.bg-gradient-horizontal-dark {
+  background-image: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.4), transparent);
+}
+
+.bg-gradient-fuchsia {
+  background-image: linear-gradient(310deg, rgba(var(--v-theme-purple700)), rgba(var(--v-theme-pink500)));
+}
+
+.shadow-small {
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.12) 0px 5px 10px 0px;
+}
+.shadow-medium {
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 20px 27px 0px;
+}

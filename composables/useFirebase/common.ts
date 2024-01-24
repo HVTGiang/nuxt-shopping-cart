@@ -7,7 +7,7 @@ export const getById = async (collection: string, id: string) => {
   else return undefined
 }
 
-export const getBy = async (col: string, field: string, value: string) => {
+export const getBy = async <T>(col: string, field: string, value: string) => {
   if (!col || !field || !value) return undefined
   // create a reference to the collection of firestore
   const collectionRef = collection(db, col)
@@ -21,6 +21,6 @@ export const getBy = async (col: string, field: string, value: string) => {
   if (!docSnaps.size) {
     return undefined
   } else {
-    return docSnaps.docs.map((doc) => ({ id: doc.id, ...doc.data() }))
+    return docSnaps.docs.map((doc) => ({ id: doc.id, ...doc.data() })) as T[]
   }
 }

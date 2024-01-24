@@ -1,0 +1,12 @@
+.all-products {
+  padding: 24px;
+  background-color: white;
+  margin: 24px;
+  border-radius: 16px;
+
+  &__title {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(var(--v-theme-slate700));
+  }
+}

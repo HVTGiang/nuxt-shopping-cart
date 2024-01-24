@@ -39,3 +39,11 @@ export const getUserByEmail = async (email: string) => {
     toast.error('Get user failed!')
   }
 }
+
+export const logout = async () => {
+  try {
+    auth.signOut()
+  } catch (error) {
+    toast.error('Logout failed!')
+  }
+}

@@ -1,15 +1,28 @@
 const routes = {
   signIn: {
     name: 'sign-in',
-    path: '/sign-in'
+    path: '/sign-in',
+    text: ''
   },
   signUp: {
     name: 'sign-up',
-    path: '/sign-up'
+    path: '/sign-up',
+    text: ''
   },
-  home: {
-    name: 'home',
-    path: '/'
+  dashboard: {
+    name: 'dashboard',
+    path: '/',
+    text: 'Dashboard'
+  },
+  users: {
+    name: 'users',
+    path: '/users',
+    text: 'Users'
+  },
+  products: {
+    name: 'products',
+    path: '/products',
+    text: 'Products'
   }
 }
 

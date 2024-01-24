@@ -1,0 +1,56 @@
+.app-menu {
+  max-width: 256px;
+  width: 256px;
+  min-width: 256px;
+  margin: 16px 0 16px 16px;
+
+  &__logo {
+    height: 32px;
+    margin: 24px 32px;
+    img {
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+  &__logo-text {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(var(--v-theme-slate700));
+  }
+  &__list {
+    background-color: transparent;
+    padding: 0;
+  }
+  &__group-name {
+    font-size: 12px;
+    font-weight: 700;
+    color: rgba(var(--v-theme-slate700));
+    text-transform: uppercase;
+    opacity: 0.6;
+    padding-left: 24px;
+    margin: 0 0 8px 8px;
+  }
+
+  &__item {
+    border-radius: 8px;
+    min-height: auto;
+    padding: 10px 16px;
+    margin: 0 16px;
+    font-size: 14px;
+    font-weight: 500;
+
+    &--active {
+      background-color: white;
+      color: rgba(var(--v-theme-slate700));
+      font-weight: 600;
+    }
+
+    &-icon-container {
+      padding: 10px;
+      border-radius: 8px;
+      line-height: 12px;
+      margin-right: 12px;
+      background-color: white;
+    }
+  }
+}
